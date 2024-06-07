@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+}
+
+.LowerBody{
+    margin-top: 10vh;
+   width: 100%;
+   height: 90vh;
+   background-image: linear-gradient(to right, rgb(189, 49, 44) ,rgb(25, 149, 231));
+   position: relative;
+   transform: rotate(15deg); /* Rotate the div by 45 degrees */
+    transform-origin: center; /* Ensure rotation is from the center */
+   
+}
+.LowerBodyBox{
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(176, 32, 152) , rgb(195, 104, 20));
+   
+    /* top: 5%; */
+    left: 10%;
+    color: aliceblue;
+    font-size: 18px;
+    transform: rotate(-15deg); /* Rotate the div by 45 degrees */
+    transform-origin: center;
+
+    
+}
+#jordan{
+    height:  250px;
+   width:  250px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin: 0;
+}
+#jordan:hover{
+
+    height:  300px;
+   width:  300px;
+    border-radius: 50%;
+    
+}
+
+/* pre{
+    
+    text-align: left;
+} */
